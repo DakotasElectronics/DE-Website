@@ -1,0 +1,287 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    margin: 0 auto;
+    background-color: #141416;
+}
+
+main {
+    
+}
+
+footer {
+    height: 500px;
+    padding-left: 40px
+}
+
+header {
+    display: block;
+    position: fixed;
+    background-color: rgba(20, 20, 22, 0.5);
+    top: 0;
+    height: 55px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    backdrop-filter: blur(20px);
+    z-index: 1000
+}
+
+header a {
+    color: white;
+    font-size: 15px;
+    transition: 0.3s
+}
+
+header a:hover {
+    color: #357ae4
+}
+
+header a:active {
+    color: #0045ad
+}
+
+header img {
+    height: 25px;
+    margin-top: 14.5px;
+    margin-left: 14.5px;
+    margin-right: 17px
+}
+
+footer img {
+    height: 40px;
+    margin-top: 40px;
+}
+
+p {
+    color: #FFF
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 80px;
+    color: #FFF;
+    margin-left: 60px;
+    margin-top: 40px
+}
+
+
+h2 {
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFF;
+    margin-left: 60px;
+    width: 500px
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 60px;
+    color: #FFF
+}
+
+h4 {
+    color: #757575;
+    font-size: 20px
+}
+
+li {
+    color: #FFF;
+    font-size: 20px;
+    line-height: 30px;
+}
+footer h3 {
+    color: #757575;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 14px;
+}
+
+.vidcontainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%
+}
+
+.vid {
+    border: 0px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%
+
+}
+
+.button {
+    background-color: rgb(26, 118, 255);
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(74, 156, 255);
+}
+
+.button:active {
+    background-color: rgb(0, 74, 165);
+}
+
+.headerbutton {
+    float: right;
+    margin-right: 17px;
+    margin-left: 17px;
+    margin-top: 17px;
+    display: inline-block;
+    text-align: center
+}
+
+.footerbutton {
+    margin-top: 17px;
+    color: #151515;
+    transition: 0.3s
+}
+
+.footerbutton:hover {
+    color: #357ae4
+}
+
+.bold {
+    font-weight: bold
+}
+
+.nomargin {
+    margin: 0
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer img {
+    filter: invert(90%)
+}
+
+.lighttext {
+    font-weight: normal
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px
+}
+
+.content {
+    width: 1300px;
+    margin-top: 55px
+}
+
+#guarde {
+    height: 800px;
+    background-image: url(images/guardebackground.png);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 110px
+}
+
+#defender {
+    height: 800px;
+    background-image: url(images/dedefender.png);
+    margin-top: 0px;
+    padding-top: 55px
+}
+
+#trademark {
+    color: #151515;
+}
+
+#defselection {
+    background-image: url("images/dedefender.png");
+    padding-top: 150px;
+    padding-bottom: 150px
+}
+
+#defsection {
+    display: block;
+    border-radius: 10px;
+    width: 600px;
+    height: 450px;
+    background-color: rgba(20, 20, 22, 0.5);
+    margin: 0 auto;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3)
+}
+
+#deflogo {
+    display: block;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px
+}
+
+#defhead {
+    display: block;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#defp {
+    display: block;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 2s0px;
+    text-align: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#defdownload {
+    float: right;
+    margin-left: 5px
+}
+
+#defonline {
+    float: right;
+    margin-right: 5px;
+    margin-left: 0px
+}
+
+
+#defbuttdiv {
+    display: flex;
+    justify-content: center;
+    width: 600px
+}
+
